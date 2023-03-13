@@ -13,7 +13,7 @@ function Newspage() {
   }, []);
 
   return (
-    <div>
+    <div className="container">
       {/* maxx-width: 1200px, margin: 50px auto, */}
       <Header />
       <h1 className="News1">News News News</h1>

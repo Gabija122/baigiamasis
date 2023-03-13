@@ -13,7 +13,7 @@ function Contactspage() {
   }, []);
 
   return (
-    <div>
+    <div className="container">
       <Header />
       <div>
         {users.map((user) => (

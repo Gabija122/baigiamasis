@@ -1,4 +1,5 @@
 import { Route, Switch } from "react-router-dom";
+import Greetings from "./pages/Greetings";
 import Aboutuspage from "./pages/Aboutuspage";
 import Contactspage from "./pages/Contactspage";
 import Newspage from "./pages/Newspage";
@@ -18,6 +19,9 @@ function App() {
       </Route>
       <Route path="/aboutus">
         <Aboutuspage />
+      </Route>
+      <Route path="/greetings">
+        <Greetings />
       </Route>
     </Switch>
   );

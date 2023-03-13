@@ -1,5 +1,5 @@
 .container {
-  background-color: lightcyan;
+  background-color: var(--color-3);
 }
 
 .map {
@@ -9,7 +9,7 @@
   
   .visit {
     text-align: center;
-    color: rgb(27, 72, 8);
+    color: var(--color-2);
   }
   
   .tekstas {

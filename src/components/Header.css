@@ -1,3 +1,10 @@
+:root {
+    --color-1: yellowgreen;
+    --color-2:  rgb(27, 72, 8);
+    --color-3:  lightcyan;
+}
+ 
+ 
  .hederis {
     padding: 30px;
     background-color: rgb(179, 231, 179);
@@ -14,8 +21,8 @@
     display: flex;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: yellowgreen;
-    color: rgb(27, 72, 8);
+    background-color: var(--color-1);
+    color: var(--color-2);
     font-size: 17px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -25,14 +32,14 @@
     text-align: center;
     border-style: solid;
     border-radius: 8px;
-    border-color: rgb(27, 72, 8);
+    border-color:var(--color-2);
 }
   
   
   .mygtukas:hover {
-    background: rgb(27, 72, 8);
-    color: yellowgreen;
-    border-color: yellowgreen;
+    background: var(--color-2);
+    color: var(--color-1);
+    border-color: var(--color-1);
   }
 
  

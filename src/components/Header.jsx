@@ -17,9 +17,11 @@ function Header() {
           <Link to="/news">
             <li className="mygtukas">News</li>
           </Link>
-    
           <Link to="/contacts">
             <li className="mygtukas">Contact Us</li>
+          </Link>
+          <Link to="/greetings">
+            <li className="mygtukas">Greetings</li>
           </Link>
         </ul>
       </nav>
