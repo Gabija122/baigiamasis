@@ -1,0 +1,17 @@
+.container {
+  background-color: lightcyan;
+}
+
+.map {
+    width: 1000px;
+    height: 400px;
+  }
+  
+  .visit {
+    text-align: center;
+    color: rgb(27, 72, 8);
+  }
+  
+  .tekstas {
+    padding: 35px;
+  }

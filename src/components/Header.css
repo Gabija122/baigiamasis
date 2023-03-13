@@ -1,0 +1,38 @@
+ .hederis {
+    padding: 30px;
+    background-color: rgb(179, 231, 179);
+ }
+ 
+ 
+ .mygtukai {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .mygtukas {
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: yellowgreen;
+    color: rgb(27, 72, 8);
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    display: inline-block;
+    text-align: center;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: rgb(27, 72, 8);
+}
+  
+  
+  .mygtukas:hover {
+    background: rgb(27, 72, 8);
+    color: yellowgreen;
+    border-color: yellowgreen;
+  }
+
+ 
