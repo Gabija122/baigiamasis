@@ -14,11 +14,11 @@ function Newspage() {
 
   return (
     <div className="container">
-      {/* maxx-width: 1200px, margin: 50px auto, */}
+      
       <Header />
-      <h1 className="News1">News News News</h1>
-      <div className="news">
-        {/* className"grid" css display: grid, grid-template-columns: 1fr ąfr ąfr ąfr */}
+      <h1 className="news-antraste">Puslapio naujienos</h1>
+      <div className="naujienos">
+        
         {posts.map((post) => (
           <div key={post.id}>
             <h2>{post.title}</h2>

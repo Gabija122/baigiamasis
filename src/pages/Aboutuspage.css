@@ -1,17 +1,20 @@
 .container {
   background-color: var(--color-3);
+  padding-bottom: 400px ;
 }
 
 .map {
-    width: 1000px;
-    height: 400px;
-  }
+  width: 1000px;
+  height: 400px;
+}
   
-  .visit {
-    text-align: center;
-    color: var(--color-2);
-  }
+.visit {
+  text-align: center;
+  color: var(--color-2);
+}
   
-  .tekstas {
-    padding: 35px;
-  }
+.tekstas {
+  padding: 35px;
+}
+
+

@@ -1,0 +1,9 @@
+.kitas-tekstas {
+    background-color: blue;
+    color: blueviolet;
+
+}
+
+.kitas-mygtukas {
+    background-color: var(--color-1);
+}

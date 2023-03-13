@@ -1,12 +1,13 @@
-.news {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 20px;
-    padding-top: 20px;
-  }
+.naujienos {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  column-gap: 20px;
+}
   
-  .News1 {
-    text-align: center;
-    color: green;
-    padding-top: 30px;
-  }
+
+.news-antraste {
+  text-align: center;
+  color: var(--color-2);
+  padding-top: 35px;
+  text-decoration-line: underline;
+}

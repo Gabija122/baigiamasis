@@ -5,41 +5,44 @@
 }
  
  
- .hederis {
-    padding: 30px;
-    background-color: rgb(179, 231, 179);
- }
+.hederis {
+  padding: 30px;
+  background-color: rgb(179, 231, 179);
+}
+.lielem {
+  display: inline;
+}
  
- 
- .mygtukai {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
+.mygtukai {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
   
-  .mygtukas {
-    display: flex;
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: var(--color-1);
-    color: var(--color-2);
-    font-size: 17px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    padding: 15px 30px;
-    border-radius: 50px;
-    display: inline-block;
-    text-align: center;
-    border-style: solid;
-    border-radius: 8px;
-    border-color:var(--color-2);
+.mygtukas {
+  text-decoration: none;
+  display: flex;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: var(--color-1);
+  color: var(--color-2);
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 15px 30px;
+  border-radius: 50px;
+  display: inline-block;
+  text-align: center;
+  border-style: solid;
+  border-radius: 8px;
+  border-color:var(--color-2);
 }
   
   
-  .mygtukas:hover {
-    background: var(--color-2);
-    color: var(--color-1);
-    border-color: var(--color-1);
-  }
+.mygtukas:hover {
+  background: var(--color-2);
+  color: var(--color-1);
+  border-color: var(--color-1);
+}
 
  

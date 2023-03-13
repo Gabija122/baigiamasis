@@ -34,11 +34,11 @@ function Aboutuspage() {
         <p>
         Magni asperiores accusamus dolorum. Error temporibus, numquam repellendus possimus excepturi eius quae cupiditate quibusdam alias ratione expedita voluptas optio harum officiis qui laudantium distinctio neque, in sint est accusantium saepe adipisci labore.
         </p>
-        <h1 className="visit">You find us here:</h1>
-        <h1 className="visit">Adreso g. 2-5, Adresas</h1>
+        <h3 className="visit">You find us here:</h3>
+        <h4 className="visit">Adreso g. 2-5, Adresas</h4>
         <iframe
+          title="map-title"
           className="map"
-          title="1"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2306.299509313232!2d25.288455115889416!3d54.68675688028179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd9417621fb72d%3A0x9f881e6eb7ad7bd9!2sArsenalo%20g.%205%2C%2001143%20Vilnius%2C%20Lietuva!5e0!3m2!1slt!2sit!4v1671178356716!5m2!1slt!2sit"
         ></iframe>
       </div>

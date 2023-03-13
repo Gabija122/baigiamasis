@@ -8,21 +8,11 @@ function Header() {
       
       <nav className="navas">
         <ul className="mygtukai">
-          <Link to="/">
-            <li className="mygtukas">Home</li>
-          </Link>
-          <Link to="/aboutus">
-            <li className="mygtukas">About Us</li>
-          </Link>
-          <Link to="/news">
-            <li className="mygtukas">News</li>
-          </Link>
-          <Link to="/contacts">
-            <li className="mygtukas">Contact Us</li>
-          </Link>
-          <Link to="/greetings">
-            <li className="mygtukas">Greetings</li>
-          </Link>
+          <li className="lielem"><Link className="mygtukas" to="/">Home</Link></li>
+          <li className="lielem"><Link className="mygtukas" to="/aboutus">About Us</Link></li>
+          <li className="lielem"><Link className="mygtukas" to="/news">News</Link></li>
+          <li className="lielem"><Link className="mygtukas" to="/contacts">Contact Us</Link></li>
+          <li className="lielem"><Link className="mygtukas" to="/kita">Kita</Link></li>
         </ul>
       </nav>
     </header>

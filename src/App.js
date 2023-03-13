@@ -1,5 +1,5 @@
 import { Route, Switch } from "react-router-dom";
-import Greetings from "./pages/Greetings";
+import Kita from "./pages/Kitapage";
 import Aboutuspage from "./pages/Aboutuspage";
 import Contactspage from "./pages/Contactspage";
 import Newspage from "./pages/Newspage";
@@ -20,8 +20,8 @@ function App() {
       <Route path="/aboutus">
         <Aboutuspage />
       </Route>
-      <Route path="/greetings">
-        <Greetings />
+      <Route path="/kita">
+        <Kita />
       </Route>
     </Switch>
   );
