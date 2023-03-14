@@ -12,7 +12,7 @@ function Header() {
           <li className="lielem"><Link className="mygtukas" to="/aboutus">Apie mus</Link></li>
           <li className="lielem"><Link className="mygtukas" to="/contacts">Darbuotojai</Link></li>
           <li className="lielem"><Link className="mygtukas" to="/news">Naujienos</Link></li>
-          <li className="lielem"><Link className="mygtukas" to="/kita">Kita</Link></li>
+          <li className="lielem"><Link className="mygtukas" to="/kita">Daugiau</Link></li>
         </ul>
       </nav>
     </header>
