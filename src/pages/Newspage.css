@@ -12,3 +12,21 @@
   padding-top: 35px;
   text-decoration-line: underline;
 }
+
+@media only screen and (max-width: 1020px) {
+  .naujienos {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .naujienos {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .naujienos {
+    grid-template-columns: 1fr;
+  }
+}
