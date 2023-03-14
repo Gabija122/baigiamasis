@@ -1,9 +1,7 @@
-.kitas-tekstas {
-    background-color: blue;
-    color: blueviolet;
-
+.kita-container {
+    padding-left: 20px;
+    padding-top: 30px;
+    color: var(color-2);
+    font-size: 15px;
 }
 
-.kitas-mygtukas {
-    background-color: var(--color-1);
-}

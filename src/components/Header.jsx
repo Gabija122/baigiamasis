@@ -10,8 +10,8 @@ function Header() {
         <ul className="mygtukai">
           <li className="lielem"><Link className="mygtukas" to="/">Home</Link></li>
           <li className="lielem"><Link className="mygtukas" to="/aboutus">About Us</Link></li>
+          <li className="lielem"><Link className="mygtukas" to="/contacts">Darbuotojai</Link></li>
           <li className="lielem"><Link className="mygtukas" to="/news">News</Link></li>
-          <li className="lielem"><Link className="mygtukas" to="/contacts">Contact Us</Link></li>
           <li className="lielem"><Link className="mygtukas" to="/kita">Kita</Link></li>
         </ul>
       </nav>

@@ -10,10 +10,13 @@ const App = () => {
     <div className="container">
     <Wrapper>
       <Header />
-      <Text className="kitas-teksas">Lorem ipsum dolor sit amet consectetur adipisicing elit.</Text>
-      <Text className="kitas-teksas">Libero reprehenderit ullam quibusdam, eius dolorem enim iure iusto corporis!</Text>
-      <Button className="kitas-mygtukas">Click here for nothing</Button>
-      <Button className="kitas-mygtukas">Don't click here</Button>
+      <div className="kita-container">
+        <Text >Lorem ipsum dolor sit amet consectetur adipisicing elit.</Text>
+        <Text>Libero reprehenderit ullam quibusdam, eius dolorem enim iure iusto corporis!</Text>
+        <Button>Click here for nothing</Button>
+        <Text>Libero reprehenderit ullam quibusdam, eius dolorem enim iure iusto corporis!</Text>
+        <Button>Don't click here</Button>
+      </div>
     </Wrapper>
     </div>
   );

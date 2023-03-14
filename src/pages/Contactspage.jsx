@@ -15,11 +15,11 @@ function Contactspage() {
   return (
     <div className="container">
       <Header />
-      <div>
+      <div className="kontaktai">
         {users.map((user) => (
-          <div key={users.id}>
-            <h2>{user.name}</h2>
-            <ul className="contacts">
+          <div className="contact" key={users.id}>
+            <h2 className="contact-name">{user.name}</h2>
+            <ul className="contact-info">
               <li>
                 Website: <a href="website">{user.website}</a>
               </li>
