@@ -16,5 +16,40 @@
   
 .tekstas {
   padding: 35px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
+@media only screen and (max-width: 1300px) {
+  .tekstas {
+    margin-left: 110px;
+    margin-right: 110px;
+  }
+  .map {
+    width: 700px;
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .tekstas {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .map {
+    width: 500px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .tekstas {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  .map {
+    width: 300px;
+    height: 200px;
+  }
+}
