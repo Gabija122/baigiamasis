@@ -16,8 +16,9 @@ function Newspage() {
     <div className="container">
       
       <Header />
-      <h1 className="news-antraste">Puslapio naujienos</h1>
-      <div className="naujienos">
+      <div className="news-container">
+        <h1 className="news-antraste">Puslapio naujienos</h1>
+        <div className="naujienos">
         
         {posts.map((post) => (
           <div key={post.id}>
@@ -25,6 +26,7 @@ function Newspage() {
             <p>{post.body}</p>
           </div>
         ))}
+        </div>
       </div>
     </div>
   );

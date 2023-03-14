@@ -1,6 +1,7 @@
 .container {
   background-color: var(--color-3);
   padding-bottom: 400px ;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .map {
